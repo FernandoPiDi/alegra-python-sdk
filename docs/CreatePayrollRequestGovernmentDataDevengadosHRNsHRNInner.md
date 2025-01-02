@@ -1,0 +1,34 @@
+# CreatePayrollRequestGovernmentDataDevengadosHRNsHRNInner
+
+Objeto con información sobre devengados por concepto de horas recargo nocturno
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**hora_inicio** | **datetime** | Hora de inicio de Hora Recargo Nocturno | [optional] 
+**hora_fin** | **datetime** | Hora de fin de Hora Recargo Nocturno | [optional] 
+**cantidad** | **float** | Cantidad de Horas Recargo Nocturno | 
+**porcentaje** | **str** | Porcentaje al cual corresponde el calculo de 1 hora Recargo Nocturno. Se debe colocar el Porcentaje que corresponda de la tabla de la DIAN para tipos de horas extra | 
+**pago** | **float** | Es el valor pagado por el tiempo que se trabaja adicional a la jornada legal o pactada contractualmente. | 
+
+## Example
+
+```python
+from openapi_client.models.create_payroll_request_government_data_devengados_hrns_hrn_inner import CreatePayrollRequestGovernmentDataDevengadosHRNsHRNInner
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of CreatePayrollRequestGovernmentDataDevengadosHRNsHRNInner from a JSON string
+create_payroll_request_government_data_devengados_hrns_hrn_inner_instance = CreatePayrollRequestGovernmentDataDevengadosHRNsHRNInner.from_json(json)
+# print the JSON string representation of the object
+print(CreatePayrollRequestGovernmentDataDevengadosHRNsHRNInner.to_json())
+
+# convert the object into a dict
+create_payroll_request_government_data_devengados_hrns_hrn_inner_dict = create_payroll_request_government_data_devengados_hrns_hrn_inner_instance.to_dict()
+# create an instance of CreatePayrollRequestGovernmentDataDevengadosHRNsHRNInner from a dict
+create_payroll_request_government_data_devengados_hrns_hrn_inner_from_dict = CreatePayrollRequestGovernmentDataDevengadosHRNsHRNInner.from_dict(create_payroll_request_government_data_devengados_hrns_hrn_inner_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

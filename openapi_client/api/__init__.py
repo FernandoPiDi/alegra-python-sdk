@@ -1,0 +1,18 @@
+# flake8: noqa
+
+# import apis into api package
+from openapi_client.api.correos_recepcin_api import CorreosRecepcinApi
+from openapi_client.api.dian_api import DianApi
+from openapi_client.api.documentos_equivalentes_electrnicos_api import DocumentosEquivalentesElectrnicosApi
+from openapi_client.api.documentos_soporte_electrnicos_api import DocumentosSoporteElectrnicosApi
+from openapi_client.api.empresas_api import EmpresasApi
+from openapi_client.api.envio_correo_electrnico_api import EnvioCorreoElectrnicoApi
+from openapi_client.api.eventos_electrnicos_api import EventosElectrnicosApi
+from openapi_client.api.facturas_de_venta_electrnicas_api import FacturasDeVentaElectrnicasApi
+from openapi_client.api.nminas_electrnicas_api import NminasElectrnicasApi
+from openapi_client.api.notas_crdito_electrnicas_api import NotasCrditoElectrnicasApi
+from openapi_client.api.notas_dbito_electrnicas_api import NotasDbitoElectrnicasApi
+from openapi_client.api.reports_api import ReportsApi
+from openapi_client.api.resoluciones_api import ResolucionesApi
+from openapi_client.api.sets_de_pruebas_api import SetsDePruebasApi
+
