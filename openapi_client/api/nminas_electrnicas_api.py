@@ -698,6 +698,7 @@ class NminasElectrnicasApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "GetTestSetByGovernmentId200Response",
+            '201': "GetTestSetByGovernmentId201ResponsePayroll",
             '400': "List[GetDailyDocumentReport400ResponseInner]",
             '404': "List[GetDailyDocumentReport400ResponseInner]",
             '500': "List[GetDailyDocumentReport400ResponseInner]",

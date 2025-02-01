@@ -36,7 +36,7 @@ class GetTestSetByGovernmentId200ResponseEmission(BaseModel):
     company_identification: Optional[StrictStr] = Field(default=None, description="Identificación de la empresa empleadora", alias="companyIdentification")
     employee_identification: Optional[StrictStr] = Field(default=None, description="Identificación del empleado", alias="employeeIdentification")
     cune: Optional[StrictStr] = Field(default=None, description="Código único de nómina electrónica asignado para el documento")
-    prefix: Optional[Annotated[str, Field(min_length=1, strict=True)]] = Field(default=None, description="Prefijo de nómina electrónica")
+    prefix: Optional[Annotated[str, Field(min_length=0, strict=True)]] = Field(default=None, description="Prefijo de nómina electrónica")
     number: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, description="Número de nómina electrónica")
     full_number: Optional[StrictStr] = Field(default=None, description="Número de nómina electrónica (Incluye prefijo y número)", alias="fullNumber")
     government_response: Optional[GetTestSetByGovernmentId200ResponseEmissionGovernmentResponse] = Field(default=None, alias="governmentResponse")
